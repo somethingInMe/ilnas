@@ -1,0 +1,278 @@
+body { 
+    margin: 0; /* ”·Ë‡ÂÏ ÓÚÒÚÛÔ˚ */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #333;
+	}
+
+.one {
+	background: red;
+}
+
+.two {
+	background: yellow;
+}
+
+.three {
+	background: blue;
+}
+
+.main_logo {
+	width: 400px;
+	margin: 10px 0px;
+}
+
+h1 {
+	
+	font-size: 28px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+ul.navbar-nav {
+	width: 100%;
+}
+
+h2 {
+
+}
+
+section {
+	width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+a {
+	color: #337ab7;
+	
+}
+
+a:hover {
+		color: #2A4480;
+}
+
+.exit {
+	margin-right: 40px;
+	margin-top: 5px;
+	position: absolute;
+	right: 0px;
+	text-decoration: none;
+	top: 0px;
+}
+
+section p {
+	text-indent: 35px;
+	text-align: justify;
+}
+								/**** ‘Œ–Ã€  ****/
+
+form h2 {
+	font-weight: normal;
+	margin: 0 0 20px 0;
+}
+
+span.input_head {
+	display: block;
+	margin: 0 0 4px 0;
+	}
+
+input {
+	display: inline-block;
+	border: 1px solid #ccc; 
+	margin: 0 10px 15px 0;
+	height: 34px;
+	width: 330px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+}
+
+input.submit {
+	width: auto;
+	cursor: pointer;
+	background-color: #00BF32;
+	border-color: #248F40;
+	margin-top: 15px;
+	display: inline-block;
+	padding: 6px 12px;
+	color: #fff;
+
+}
+
+input.submit:hover {
+	background-color: #248F40;
+    border-color: #007C21;
+}
+
+span.alert_text {
+	display: inline-block;
+	font-size: 10px;
+	color: red;
+
+}
+
+div.input_wraper {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	
+}
+
+#empty_login, #empty_email, #empty_pass, #empty_rpass,
+	#valid_email, #valid_login, #valid_pass, #valid_rpass, #match_pass, 
+	#unique_email, #unique_login, #wrong_pass, #nounique_email {
+	display: inline-block;
+}
+
+
+
+
+
+								/**** ‘Œ–Ã€ -  ŒÕ≈÷  ****/
+	
+								/**** ‘Œ–Ã¿ ¿¬“Œ–»«¿÷»»  ****/
+
+
+form.auth {
+	width: 650px;
+	margin: 100px auto auto; 
+	padding-top: 55px;
+	padding-left: 75px;
+	padding-bottom: 35px;
+	background-color: #fff;
+	}
+
+input.alert {
+	border: 1px solid red;
+}
+
+div.forgot_pass {
+	display: inline-block;
+	margin: 15px auto 15px 30px;
+}
+
+								/**** ‘Œ–Ã¿ ¿¬“Œ–»«¿÷»» -  ŒÕ≈÷  ****/
+
+
+								/**** ‘Œ–Ã¿ –≈√»—“–¿÷»»  ****/
+
+
+form.reg {
+	width: 650px;
+	margin: 30px auto auto; 
+	padding-top: 55px;
+	padding-left: 75px;
+	padding-bottom: 35px;
+	background-color: #fff;
+	}
+								/**** ‘Œ–Ã¿ ¬Œ——“¿ÕŒ¬À≈Õ»ﬂ œ¿–ŒÀﬂ  ****/
+
+form.recovery {
+	width: 650px;
+	margin: 100px auto auto; 
+	padding-top: 55px;
+	padding-left: 75px;
+	padding-bottom: 35px;
+	background-color: #fff;
+	}
+								/**** ¬—œŒÃŒ√¿“≈À‹Õ€… ¡ÀŒ  ****/
+
+div.auxiliary {
+	background-color: #ddd;
+	height: 50px;
+	width: 100%;
+	margin-top: 90px;
+	margin-bottom: auto;
+}
+
+div.auxiliary1 {
+	width: 650px;
+	margin: 0px auto auto; 
+	padding-top: 0px;
+	padding-left: 75px;
+	padding-bottom: 0px;
+}
+
+a.aux_batton {
+	height: auto;
+	width: auto;
+	border-radius: 0;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding: 7px 12px;
+	cursor: pointer;
+	color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+a.aux_batton:hover {
+	background-color: #FFAD40;
+	border-color: #BF8230;
+}
+								/**** –¿ƒ»Œ ÕŒœ » ****/
+
+input[type=radio] {
+	display: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+input[type=radio] + label {
+	background-color: #FFE800;
+	cursor: pointer;
+	height: auto;
+	width: 200px;
+	display: inline-block;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	
+	margin-left: 0px;
+	margin-right: 0px;
+	border: 1px solid #A69700;
+	border-collapse: separate;
+	font-size: 19px;
+}
+
+input:hover + label:hover {
+	background-color: #FFEE40;
+}
+
+input[type=radio]:checked + label {
+	background-color: #A69700;
+	color: #fff;
+	cursor: default;
+}
+
+div.radio_wrap {
+	
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.frst-step {
+	text-align: center;
+}
+
+.bloquote {
+	font-style: italic;
+}
+
+p.bloquote_wrap {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
